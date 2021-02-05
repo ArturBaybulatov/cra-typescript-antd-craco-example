@@ -1,5 +1,5 @@
 import {ConfigProvider, notification} from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.less';
 import antdRuLocale from 'antd/lib/locale/ru_RU';
 import moment from 'moment'; // antd transitive dependency
 import 'moment/locale/ru';

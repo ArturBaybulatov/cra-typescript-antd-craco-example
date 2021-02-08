@@ -34,23 +34,6 @@
     "start": "craco start",
     "test": "craco test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "airbnb-typescript",
-      "prettier",
-      "prettier/@typescript-eslint",
-      "prettier/react"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    },
-    "rules": {
-      "import/no-extraneous-dependencies": "off",
-      "react/react-in-jsx-scope": "off"
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",

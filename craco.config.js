@@ -8,12 +8,10 @@ module.exports = {
   plugins: [
     {
       plugin: CracoLessPlugin,
-
       options: {
         lessLoaderOptions: {
           lessOptions: {
             javascriptEnabled: true,
-
             modifyVars: {
               '@font-size-base': '16px',
               '@link-hover-color': '#7389ff',

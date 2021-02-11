@@ -1,10 +1,6 @@
 const CracoLessPlugin = require('craco-less');
 
 module.exports = {
-  eslint: {
-    enable: process.env.NODE_ENV === 'production',
-  },
-
   plugins: [
     {
       plugin: CracoLessPlugin,
